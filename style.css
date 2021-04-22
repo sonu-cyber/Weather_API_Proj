@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+
+	#root {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+		margin: 10px 20px;
+	}
+
+	h1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		color: #03a9f4;
+		padding:10px;
+		margin-bottom:20px;
+	}
+
+	p {
+	display: flex;
+	flex-direction: column;
+	font-size:18px;
+	}
+
+	.card-0, .card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8, .card-9, .card-10, .card-11, .card-12 {
+		display:flex;
+		flex-direction:column;
+		justify-content: center;
+		align-items: center;
+		width:30vw;
+		height:30vh;
+		padding:10px;
+		font-size: 18px;
+		border-radius: 5px;
+		box-shadow: 5px 5px #aaa;
+		margin-bottom: 25px;
+		transition: all 3s;
+	}
+
+	.card-0:hover,.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover,.card-5:hover,.card-6:hover,.card-7:hover,.card-8:hover,.card-9:hover,.card-10:hover,.card-11:hover,.card-12:hover  {
+		transition-timing-function: ease-in-out;
+		transform: scale(1.1);
+	}
+
+	.card-0
+	{
+		border:3px solid #4ccfe0;
+	}
+
+	.card-1{
+		color:#f5665b;
+		border: 3px solid #f5665b;
+	}
+
+	.card-2{
+		color:#9e7d7b;
+		border: 3px solid #9e7d7b;
+	}
+
+	.card-3{
+		color: #8e68d0;
+		border: 3px solid #8e68d0;
+	}
+
+	.card-4{
+		color: #92b767;
+		border: 3px solid #92b767;
+ }
+
+	.card-5{
+		color: #9575ce;
+		border: 3px solid #9575ce;
+	}
+
+	.card-6{
+	color: #6eaac5;
+	border: 3px solid #6eaac5;
+	}
+
+	.card-7 {
+	color: #ceb467;
+	border: 3px solid #ceb467;
+	}
+
+	.card-8 {
+	color: #ca8c75;
+	border: 3px solid #ca8c75;
+	}
+
+	.card-9{
+	color: #f5665b;
+	border: 3px solid #f5665b;
+	}
+
+	.card-10{
+	color: #ceb467;
+	padding: 10px;
+	border: 3px solid #ceb467;
+	}
+
+	.card-11{
+	color: #8bc34a;
+	padding: 10px;
+	border: 3px solid #8bc34a;
+	}
+
+	.card-12{
+	color: #a18ebb;
+	border: 3px solid #a18ebb;
+	}
+
+	.array-index{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #2196f3;
+		font-size: 18px;
+		font-family:monospace;
+	}
+
+	.latitude, .longitude {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		color: #8bc34a;
+		font-family: georgia;
+		font-size: 24px;
+	}
+
+	
